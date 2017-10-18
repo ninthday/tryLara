@@ -16,3 +16,5 @@
 // });
 
 Route::get('/', 'TaskController@home');
+
+Route::resource('task', 'MySampleResourceController');
